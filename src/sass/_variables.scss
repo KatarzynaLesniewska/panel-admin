@@ -41,15 +41,8 @@ body {
 @mixin a {
   text-decoration: none;
   background-color: inherit;
-  color: $paragraph-color;
   padding: 0;
   text-align: center;
-  display: inline-block;
-
-  :hover {
-    background-color: $dark-black4;
-    color: $white;
-  }
 }
 
 /* Sidebar */
@@ -59,9 +52,8 @@ body {
   padding: 18px;
   font-family: $heading-font;
   font-size: 20px;
-  position: fixed;
-  display: inline;
   height: 100%;
+  position: fixed;
 }
 
 .sidebar__logo {
@@ -97,7 +89,13 @@ body {
 
   .sidebar__link {
     @include a;
+    display: inline-block;
     color: inherit;
+
+    :hover {
+      background-color: $dark-black4;
+      color: $white;
+    }
 
     .sidebar__link-icon {
       i {
@@ -107,6 +105,43 @@ body {
 
     .pop-out-messege-title {
       font-size: 17px;
+    }
+  }
+}
+
+/* Navbar (top) */
+.navbar {
+  padding-top: 18px;
+  background-color: inherit;
+  color: $dark-gray3;
+  font-family: $heading-font;
+  font-size: 20px;
+  width: 100%;
+  position: fixed;
+  display: inline-block;
+  text-align: right;
+}
+
+.navbar__nav {
+  @include ul;
+
+  li {
+    display: inline-block;
+    padding: 0 10px;
+  }
+
+  .navbar__link {
+    @include a;
+  }
+
+  .navbar__link-icon {
+    i {
+      margin-right: 15px;
+    }
+
+    select {
+      border: 0px;
+      color: $dark-gray3;
     }
   }
 }
