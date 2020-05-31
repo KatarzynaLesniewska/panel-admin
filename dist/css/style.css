@@ -1,4 +1,8 @@
 /* Colors */
+/* sidebar bg */
+/* palette: https://flatuicolors.com/palette/ca */
+/* sidebar hover */
+/* sidebar font notActive */
 /* Font sizes */
 /* Fonts */
 /* Globals */
@@ -8,6 +12,76 @@
 
 body {
   margin: 0;
+  font-size: 16px;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #000000;
+  color: #576574;
+  padding: 18px;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  position: fixed;
+  display: inline;
+  height: 100%;
+}
+
+.sidebar__logo {
+  color: #ffffff;
+  font-size: 35px;
+  font-family: "Dancing Script", cursive;
+  margin-right: 30px;
+}
+
+.sidebar__toggler {
+  border: 0;
+  background-color: inherit;
+  margin-bottom: 20px;
+}
+
+.sidebar__toggler :hover {
+  cursor: pointer;
+}
+
+.sidebar__toggler .sidebar__toggler-icon {
+  background-color: inherit;
+  color: #c8d6e5;
+  font-size: 30px;
+}
+
+.sidebar__nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar__nav li {
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.sidebar__nav .sidebar__link {
+  text-decoration: none;
+  background-color: inherit;
+  color: #000000;
+  padding: 0;
+  text-align: center;
+  display: inline-block;
+  color: inherit;
+}
+
+.sidebar__nav .sidebar__link :hover {
+  background-color: #222f3e;
+  color: #ffffff;
+}
+
+.sidebar__nav .sidebar__link .sidebar__link-icon i {
+  margin-right: 15px;
+}
+
+.sidebar__nav .sidebar__link .pop-out-messege-title {
+  font-size: 17px;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
