@@ -28,6 +28,10 @@
 
   .navbar__link {
     @include a;
+
+    :hover {
+      cursor: pointer;
+    }
   }
 
   .navbar__link-icon {
