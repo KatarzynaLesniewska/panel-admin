@@ -361,32 +361,41 @@ template {
 .sidebar {
   background-color: #000000;
   color: #576574;
-  padding: 18px;
   font-family: "Lato", sans-serif;
   font-size: 20px;
   height: 100%;
   position: fixed;
+  padding: 18px 0 0 0;
+}
+
+.sidebar .sidebar_border {
+  border-bottom: solid 1px;
+  color: #222f3e;
+}
+
+.sidebar__header {
+  margin-right: 8px;
+  margin-bottom: 20px;
+  margin-left: 15px;
 }
 
 .sidebar__logo {
   color: #ffffff;
   font-size: 35px;
   font-family: "Dancing Script", cursive;
-  margin-right: 30px;
+  margin-right: 25px;
 }
 
 .sidebar__toggler {
   border: 0;
   background-color: inherit;
-  margin-bottom: 20px;
 }
 
-.sidebar__toggler :hover {
+.sidebar__toggler:hover {
   cursor: pointer;
 }
 
 .sidebar__toggler .sidebar__toggler-icon {
-  background-color: inherit;
   color: #c8d6e5;
   font-size: 30px;
 }
@@ -398,8 +407,13 @@ template {
 }
 
 .sidebar__nav li {
-  padding-bottom: 5px;
-  margin-bottom: 15px;
+  padding: 18px;
+}
+
+.sidebar__nav li:hover {
+  background-color: #222f3e;
+  color: #ffffff;
+  border-left: solid 4px #ff9f43;
 }
 
 .sidebar__nav .sidebar__link {
@@ -411,13 +425,9 @@ template {
   color: inherit;
 }
 
-.sidebar__nav .sidebar__link :hover {
-  background-color: #222f3e;
-  color: #ffffff;
-}
-
 .sidebar__nav .sidebar__link .sidebar__link-icon i {
   margin-right: 15px;
+  min-width: 30px;
 }
 
 .sidebar__nav .sidebar__link .pop-out-messege-title {
@@ -462,5 +472,6 @@ template {
 
 .navbar__nav .navbar__link-icon i {
   margin-right: 15px;
+  min-width: 30px;
 }
 /*# sourceMappingURL=style.css.map */

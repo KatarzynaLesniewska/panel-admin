@@ -2,31 +2,40 @@
 .sidebar {
   background-color: $paragraph-color;
   color: $dark-gray3;
-  padding: 18px;
   font-family: $heading-font;
   font-size: 20px;
   height: 100%;
   position: fixed;
+  padding: 18px 0 0 0;
+
+  .sidebar_border {
+    border-bottom: solid 1px;
+    color: $dark-black4;
+  }
+}
+
+.sidebar__header {
+  margin-right: 8px;
+  margin-bottom: 20px;
+  margin-left: 15px;
 }
 
 .sidebar__logo {
   color: $white;
   font-size: $logo-size;
   font-family: $logo-font;
-  margin-right: 30px;
+  margin-right: 25px;
 }
 
 .sidebar__toggler {
   border: 0;
   background-color: inherit;
-  margin-bottom: 20px;
 
-  :hover {
+  &:hover {
     cursor: pointer;
   }
 
   .sidebar__toggler-icon {
-    background-color: inherit;
     color: $light-gray1;
     font-size: $icon-size;
   }
@@ -36,8 +45,13 @@
   @include ul;
 
   li {
-    padding-bottom: 5px;
-    margin-bottom: 15px;
+    padding: 18px;
+
+    &:hover {
+      background-color: $dark-black4;
+      color: $white;
+      border-left: solid 4px $button;
+    }
   }
 
   .sidebar__link {
@@ -45,14 +59,10 @@
     display: inline-block;
     color: inherit;
 
-    :hover {
-      background-color: $dark-black4;
-      color: $white;
-    }
-
     .sidebar__link-icon {
       i {
         margin-right: 15px;
+        min-width: 30px;
       }
     }
 
