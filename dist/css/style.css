@@ -436,15 +436,16 @@ template {
 
 /* Navbar (top) */
 .navbar {
-  padding-top: 18px;
   background-color: inherit;
-  color: #576574;
+  color: #8395a7;
   font-family: "Lato", sans-serif;
   font-size: 20px;
   width: 100%;
   position: fixed;
   display: inline-block;
   text-align: right;
+  border-bottom: solid 1px;
+  z-index: -1;
 }
 
 .navbar__nav {
@@ -455,7 +456,13 @@ template {
 
 .navbar__nav li {
   display: inline-block;
-  padding: 0 10px;
+  padding: 18px 10px;
+  border-right: solid 1px;
+  color: #8395a7;
+}
+
+.navbar__nav li:hover {
+  cursor: pointer;
 }
 
 .navbar__nav .navbar__form select {
@@ -470,8 +477,12 @@ template {
   text-align: center;
 }
 
+.navbar__nav .navbar__link-first-li {
+  color: transparent;
+}
+
 .navbar__nav .navbar__link-icon i {
-  margin-right: 15px;
+  margin-right: 5px;
   min-width: 30px;
 }
 /*# sourceMappingURL=style.css.map */

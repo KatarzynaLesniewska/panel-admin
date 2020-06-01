@@ -1,14 +1,15 @@
 /* Navbar (top) */
 .navbar {
-  padding-top: 18px;
   background-color: inherit;
-  color: $dark-gray3;
+  color: $gray2;
   font-family: $heading-font;
   font-size: 20px;
   width: 100%;
   position: fixed;
   display: inline-block;
   text-align: right;
+  border-bottom: solid 1px;
+  z-index: -1;
 }
 
 .navbar__nav {
@@ -16,7 +17,13 @@
 
   li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 18px 10px;
+    border-right: solid 1px;
+    color: $gray2;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .navbar__form {
@@ -30,9 +37,13 @@
     @include a;
   }
 
+  .navbar__link-first-li {
+    color: transparent;
+  }
+
   .navbar__link-icon {
     i {
-      margin-right: 15px;
+      margin-right: 5px;
       min-width: 30px;
     }
   }
