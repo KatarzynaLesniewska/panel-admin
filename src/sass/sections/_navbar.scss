@@ -1,0 +1,38 @@
+/* Navbar (top) */
+.navbar {
+  padding-top: 18px;
+  background-color: inherit;
+  color: $dark-gray3;
+  font-family: $heading-font;
+  font-size: 20px;
+  width: 100%;
+  position: fixed;
+  display: inline-block;
+  text-align: right;
+}
+
+.navbar__nav {
+  @include ul;
+
+  li {
+    display: inline-block;
+    padding: 0 10px;
+  }
+
+  .navbar__form {
+    select {
+      border: 0px;
+      color: $dark-gray3;
+    }
+  }
+
+  .navbar__link {
+    @include a;
+  }
+
+  .navbar__link-icon {
+    i {
+      margin-right: 15px;
+    }
+  }
+}
