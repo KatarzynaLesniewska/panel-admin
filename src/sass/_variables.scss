@@ -130,6 +130,13 @@ body {
     padding: 0 10px;
   }
 
+  .navbar__form {
+    select {
+      border: 0px;
+      color: $dark-gray3;
+    }
+  }
+
   .navbar__link {
     @include a;
   }
@@ -137,11 +144,6 @@ body {
   .navbar__link-icon {
     i {
       margin-right: 15px;
-    }
-
-    select {
-      border: 0px;
-      color: $dark-gray3;
     }
   }
 }
