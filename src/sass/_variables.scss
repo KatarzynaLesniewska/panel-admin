@@ -31,16 +31,3 @@ body {
   margin: 0;
   font-size: $paragraph-font-size;
 }
-
-@mixin ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-@mixin a {
-  text-decoration: none;
-  background-color: inherit;
-  padding: 0;
-  text-align: center;
-}
