@@ -1,0 +1,44 @@
+/* General Stats */
+
+.general-stats {
+  @include section;
+
+  .general-stats__heading {
+    text-align: left;
+    border-bottom: solid 1px $gray2;
+    margin: 10px 0;
+    padding: 0 10px 10px 10px;
+  }
+
+  .general-stats__4-numbers {
+    margin: auto;
+    width: 50%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .general-stats__colmn {
+    flex-direction: column;
+  }
+
+  .general-stats__row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: solid 1px $gray2;
+    margin-bottom: 35px;
+  }
+
+  .general-stats__name {
+    text-align: left;
+    margin-right: 175px;
+  }
+
+  .general-stats__No {
+    text-align: right;
+    color: $paragraph-color;
+  }
+}

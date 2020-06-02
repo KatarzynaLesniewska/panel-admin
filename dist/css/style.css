@@ -16,25 +16,6 @@ body {
   background-color: #c8d6e5;
 }
 
-/* General Stats */
-.general-stats {
-  border: solid 1px #8395a7;
-  margin-left: 250px;
-  margin-top: 30px;
-  margin-right: 30px;
-  margin-bottom: 30px;
-  text-align: center;
-  color: #576574;
-  background-color: #ffffff;
-}
-
-.general-stats .general-stats__heading {
-  text-align: left;
-  border-bottom: solid 1px #8395a7;
-  margin: 10px 0;
-  padding: 0 10px 10px 10px;
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -517,6 +498,64 @@ template {
 
 .navbar__nav .navbar__link-icon .navbar__link-icon-name {
   color: #2e86de;
+}
+
+/* General Stats */
+.general-stats {
+  border: solid 1px #8395a7;
+  margin-left: 250px;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #576574;
+  background-color: #ffffff;
+}
+
+.general-stats .general-stats__heading {
+  text-align: left;
+  border-bottom: solid 1px #8395a7;
+  margin: 10px 0;
+  padding: 0 10px 10px 10px;
+}
+
+.general-stats .general-stats__4-numbers {
+  margin: auto;
+  width: 50%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.general-stats .general-stats__colmn {
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.general-stats .general-stats__row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  border-bottom: solid 1px #8395a7;
+  margin-bottom: 35px;
+}
+
+.general-stats .general-stats__name {
+  text-align: left;
+  margin-right: 175px;
+}
+
+.general-stats .general-stats__No {
+  text-align: right;
+  color: #000000;
 }
 
 /* Links */
