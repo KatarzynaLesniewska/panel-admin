@@ -515,6 +515,10 @@ template {
   min-width: 30px;
 }
 
+.navbar__nav .navbar__link-icon .navbar__link-icon-name {
+  color: #2e86de;
+}
+
 /* Links */
 .links {
   border: solid 1px #8395a7;
