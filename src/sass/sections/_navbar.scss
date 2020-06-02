@@ -1,11 +1,10 @@
 /* Navbar (top) */
 .navbar {
-  background-color: inherit;
+  background-color: $white;
   color: $gray2;
   font-family: $heading-font;
   font-size: 20px;
   width: 100%;
-  position: fixed;
   display: inline-block;
   text-align: right;
   border-bottom: solid 1px;

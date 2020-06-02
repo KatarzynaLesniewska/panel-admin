@@ -13,6 +13,45 @@
 body {
   margin: 0;
   font-size: 16px;
+  background-color: #c8d6e5;
+}
+
+/* General Stats */
+.general-stats {
+  border: solid 1px #8395a7;
+  margin-left: 250px;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #576574;
+  background-color: #ffffff;
+}
+
+.general-stats .general-stats__heading {
+  text-align: left;
+  border-bottom: solid 1px #8395a7;
+  margin: 10px 0;
+  padding: 0 10px 10px 10px;
+}
+
+/* Links */
+.links {
+  border: solid 1px #8395a7;
+  margin-left: 250px;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #576574;
+  background-color: #ffffff;
+}
+
+.links .links__heading {
+  text-align: left;
+  border-bottom: solid 1px #8395a7;
+  margin: 10px 0;
+  padding: 0 10px 10px 10px;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -436,12 +475,11 @@ template {
 
 /* Navbar (top) */
 .navbar {
-  background-color: inherit;
+  background-color: #ffffff;
   color: #8395a7;
   font-family: "Lato", sans-serif;
   font-size: 20px;
   width: 100%;
-  position: fixed;
   display: inline-block;
   text-align: right;
   border-bottom: solid 1px;

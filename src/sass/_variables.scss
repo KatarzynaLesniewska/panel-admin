@@ -30,4 +30,42 @@ $logo-font: 'Dancing Script', cursive;
 body {
   margin: 0;
   font-size: $paragraph-font-size;
+  background-color: $light-gray1;
+}
+
+@mixin section {
+  border: solid 1px $gray2;
+  margin-left: 250px;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: $dark-gray3;
+  background-color: $white;
+}
+
+/* General Stats */
+
+.general-stats {
+  @include section;
+
+  .general-stats__heading {
+    text-align: left;
+    border-bottom: solid 1px $gray2;
+    margin: 10px 0;
+    padding: 0 10px 10px 10px;
+  }
+}
+
+/* Links */
+
+.links {
+  @include section;
+
+  .links__heading {
+    text-align: left;
+    border-bottom: solid 1px $gray2;
+    margin: 10px 0;
+    padding: 0 10px 10px 10px;
+  }
 }
