@@ -1,0 +1,81 @@
+/* Links */
+
+.links {
+  @include section;
+
+  .links__heading {
+    text-align: left;
+    border-bottom: solid 1px $gray2;
+    margin: 10px 0;
+    padding: 0 10px 10px 10px;
+  }
+
+  .links__content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .links__link-list {
+    padding: 0;
+    list-style-type: none;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+
+    li:first-of-type {
+      border-top: solid 1px $gray2;
+    }
+  }
+
+  .links__btn {
+    background-color: $button;
+    color: $white;
+    border-radius: 4px;
+    border: 0px;
+    margin: 20px;
+    padding: 10px 15px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $light-gray1;
+    }
+  }
+
+  li {
+    width: fit-content;
+    padding: 25px 0 25px 20px;
+    border-bottom: solid 1px $gray2;
+
+    &:hover {
+      background-color: $light-gray1;
+
+      i:first-of-type {
+        color: $button;
+      }
+
+      i {
+        color: $dark-gray3;
+      }
+    }
+  }
+
+  .links__name {
+    margin-right: 200px;
+  }
+
+  .links__url {
+    margin-right: 150px;
+    text-decoration: none;
+  }
+
+  .links__icons {
+    min-width: 30px;
+
+    i {
+      margin-right: 30px;
+      color: transparent;
+    }
+  }
+}

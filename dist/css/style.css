@@ -35,25 +35,6 @@ body {
   padding: 0 10px 10px 10px;
 }
 
-/* Links */
-.links {
-  border: solid 1px #8395a7;
-  margin-left: 250px;
-  margin-top: 30px;
-  margin-right: 30px;
-  margin-bottom: 30px;
-  text-align: center;
-  color: #576574;
-  background-color: #ffffff;
-}
-
-.links .links__heading {
-  text-align: left;
-  border-bottom: solid 1px #8395a7;
-  margin: 10px 0;
-  padding: 0 10px 10px 10px;
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -522,5 +503,98 @@ template {
 .navbar__nav .navbar__link-icon i {
   margin-right: 5px;
   min-width: 30px;
+}
+
+/* Links */
+.links {
+  border: solid 1px #8395a7;
+  margin-left: 250px;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #576574;
+  background-color: #ffffff;
+}
+
+.links .links__heading {
+  text-align: left;
+  border-bottom: solid 1px #8395a7;
+  margin: 10px 0;
+  padding: 0 10px 10px 10px;
+}
+
+.links .links__content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  text-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.links .links__link-list {
+  padding: 0;
+  list-style-type: none;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.links .links__link-list li:first-of-type {
+  border-top: solid 1px #8395a7;
+}
+
+.links .links__btn {
+  background-color: #ff9f43;
+  color: #ffffff;
+  border-radius: 4px;
+  border: 0px;
+  margin: 20px;
+  padding: 10px 15px;
+}
+
+.links .links__btn:hover {
+  cursor: pointer;
+  background-color: #c8d6e5;
+}
+
+.links li {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 25px 0 25px 20px;
+  border-bottom: solid 1px #8395a7;
+}
+
+.links li:hover {
+  background-color: #c8d6e5;
+}
+
+.links li:hover i:first-of-type {
+  color: #ff9f43;
+}
+
+.links li:hover i {
+  color: #576574;
+}
+
+.links .links__name {
+  margin-right: 200px;
+}
+
+.links .links__url {
+  margin-right: 150px;
+  text-decoration: none;
+}
+
+.links .links__icons {
+  min-width: 30px;
+}
+
+.links .links__icons i {
+  margin-right: 30px;
+  color: transparent;
 }
 /*# sourceMappingURL=style.css.map */

@@ -56,16 +56,3 @@ body {
     padding: 0 10px 10px 10px;
   }
 }
-
-/* Links */
-
-.links {
-  @include section;
-
-  .links__heading {
-    text-align: left;
-    border-bottom: solid 1px $gray2;
-    margin: 10px 0;
-    padding: 0 10px 10px 10px;
-  }
-}
