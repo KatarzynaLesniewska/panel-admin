@@ -66,8 +66,20 @@
       }
     }
 
-    .pop-out-messege-title {
+    .sidebar__messege-title {
       font-size: 17px;
+    }
+
+    .sidebar__messege-img {
+      img {
+        border-radius: 19px;
+        margin-right: 15px;
+      }
+
+      .sidebar__messege-name {
+        font-size: 14px;
+        color: $blue;
+      }
     }
   }
 }

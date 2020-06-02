@@ -450,8 +450,18 @@ template {
   min-width: 30px;
 }
 
-.sidebar__nav .sidebar__link .pop-out-messege-title {
+.sidebar__nav .sidebar__link .sidebar__messege-title {
   font-size: 17px;
+}
+
+.sidebar__nav .sidebar__link .sidebar__messege-img img {
+  border-radius: 19px;
+  margin-right: 15px;
+}
+
+.sidebar__nav .sidebar__link .sidebar__messege-img .sidebar__messege-name {
+  font-size: 14px;
+  color: #2e86de;
 }
 
 /* Navbar (top) */
