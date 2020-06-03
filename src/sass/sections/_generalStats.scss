@@ -3,6 +3,8 @@
 .general-stats {
   @include section;
 
+  /* Heading */
+
   .general-stats__heading {
     text-align: left;
     border-bottom: solid 1px $gray2;
@@ -10,14 +12,59 @@
     padding: 0 10px 10px 10px;
   }
 
+  /* Calender */
+
+  .general-stats__calender {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px $gray2;
+
+    .calender {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      border: solid 1px $gray2;
+      display: flex;
+
+      div:first-of-type {
+        border-right: solid 1px $gray2;
+      }
+    }
+
+    .calender_box {
+      color: $paragraph-color;
+      padding: 10px;
+
+      i {
+        color: $gray2;
+      }
+    }
+
+    .calender__btn {
+      background-color: $button;
+      color: $white;
+      border-radius: 4px;
+      border: 0px;
+      padding: 10px;
+      margin-left: 15px;
+
+      &:hover {
+        cursor: pointer;
+        background-color: $light-gray1;
+      }
+    }
+  }
+
+  /* 4-numbers */
+
   .general-stats__4-numbers {
     margin: auto;
     width: 50%;
     justify-content: space-around;
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 
   .general-stats__colmn {
@@ -40,5 +87,11 @@
   .general-stats__No {
     text-align: right;
     color: $paragraph-color;
+  }
+
+  /* Chart */
+
+  .general-stats__chart {
+    margin-bottom: 30px;
   }
 }

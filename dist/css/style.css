@@ -510,6 +510,10 @@ template {
   text-align: center;
   color: #576574;
   background-color: #ffffff;
+  /* Heading */
+  /* Calender */
+  /* 4-numbers */
+  /* Chart */
 }
 
 .general-stats .general-stats__heading {
@@ -517,6 +521,51 @@ template {
   border-bottom: solid 1px #8395a7;
   margin: 10px 0;
   padding: 0 10px 10px 10px;
+}
+
+.general-stats .general-stats__calender {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  border-bottom: solid 1px #8395a7;
+}
+
+.general-stats .general-stats__calender .calender {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: solid 1px #8395a7;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.general-stats .general-stats__calender .calender div:first-of-type {
+  border-right: solid 1px #8395a7;
+}
+
+.general-stats .general-stats__calender .calender_box {
+  color: #000000;
+  padding: 10px;
+}
+
+.general-stats .general-stats__calender .calender_box i {
+  color: #8395a7;
+}
+
+.general-stats .general-stats__calender .calender__btn {
+  background-color: #ff9f43;
+  color: #ffffff;
+  border-radius: 4px;
+  border: 0px;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+.general-stats .general-stats__calender .calender__btn:hover {
+  cursor: pointer;
+  background-color: #c8d6e5;
 }
 
 .general-stats .general-stats__4-numbers {
@@ -528,8 +577,8 @@ template {
   display: flex;
   -ms-flex-direction: row;
       flex-direction: row;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .general-stats .general-stats__colmn {
@@ -556,6 +605,10 @@ template {
 .general-stats .general-stats__No {
   text-align: right;
   color: #000000;
+}
+
+.general-stats .general-stats__chart {
+  margin-bottom: 30px;
 }
 
 /* Links */
