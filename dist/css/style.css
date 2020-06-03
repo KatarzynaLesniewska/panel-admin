@@ -611,6 +611,11 @@ template {
   margin-bottom: 30px;
 }
 
+.general-stats .general-stats__chart .general-stats__chart-img {
+  text-align: left;
+  margin-left: 320px;
+}
+
 /* Links */
 .links {
   border: solid 1px #8395a7;

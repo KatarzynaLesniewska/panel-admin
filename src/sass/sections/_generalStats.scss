@@ -93,5 +93,10 @@
 
   .general-stats__chart {
     margin-bottom: 30px;
+
+    .general-stats__chart-img {
+      text-align: left;
+      margin-left: 320px;
+    }
   }
 }
