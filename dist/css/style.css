@@ -367,23 +367,31 @@ template {
   }
   .sidebar {
     width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
   }
   .sidebar .sidebarLi-navbarSM {
     width: 100%;
     display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
   .sidebar .sidebarLi-navbarSM ul {
     width: 100%;
   }
   .sidebar .sidebarLi-navbarSM ul li {
     display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
   .sidebar .general-stats {
     margin-left: 5px;
@@ -391,18 +399,24 @@ template {
   }
   .sidebar .general-stats__4-numbers {
     display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
   .sidebar .general-stats__name {
     margin-right: 100px;
   }
   .sidebar .general-stats__chart {
     display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
   .sidebar .general-stats__chart-img {
     text-align: center;
@@ -432,9 +446,12 @@ template {
   }
   .links .li {
     display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
 }
 
@@ -447,18 +464,24 @@ template {
   }
   .general-stats__4-numbers {
     display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
   .general-stats__name {
     margin-right: 100px;
   }
   .general-stats__chart {
     display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
   .general-stats__chart-img {
     text-align: center;
@@ -484,9 +507,12 @@ template {
   }
   .links .li {
     display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
 }
 
@@ -725,9 +751,12 @@ template {
 }
 
 .general-stats .general-stats__calender {
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   border-bottom: solid 1px #8395a7;
 }
 
@@ -735,6 +764,7 @@ template {
   margin-top: 50px;
   margin-bottom: 50px;
   border: solid 1px #8395a7;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -768,21 +798,28 @@ template {
 .general-stats .general-stats__4-numbers {
   margin: auto;
   width: 50%;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -ms-flex-direction: row;
+      flex-direction: row;
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
 .general-stats .general-stats__colmn {
-  flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
 }
 
 .general-stats .general-stats__row {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-direction: row;
+      flex-direction: row;
   border-bottom: solid 1px #8395a7;
   margin-bottom: 35px;
 }
@@ -814,18 +851,24 @@ template {
   }
   .general-stats__4-numbers {
     display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
   .general-stats__name {
     margin-right: 100px;
   }
   .general-stats__chart {
     display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
   .general-stats__chart-img {
     text-align: center;
@@ -836,18 +879,24 @@ template {
 @media (min-width: 768px) and (max-width: 991px) {
   .general-stats__4-numbers {
     display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
   .general-stats__name {
     margin-right: 100px;
   }
   .general-stats__chart {
     display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
   .general-stats__chart-img {
     text-align: center;
@@ -906,10 +955,13 @@ img {
 }
 
 .links .links__content {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
   text-align: center;
-  align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .links .links__link-list {
@@ -939,6 +991,8 @@ img {
 }
 
 .links li {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   padding: 25px 0 25px 20px;
   border-bottom: solid 1px #8395a7;
@@ -982,18 +1036,24 @@ img {
   }
   .links .li {
     display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .links .li {
     display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
 }
 
@@ -1002,5 +1062,4 @@ img {
 @media (min-width: 992px) and (max-width: 1440px) {
 }
 */
-
 /*# sourceMappingURL=style.css.map */
