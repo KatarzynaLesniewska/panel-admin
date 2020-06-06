@@ -14,6 +14,10 @@
 .navbar__nav {
   @include ul;
 
+  li:first-child {
+    border-left: solid 1px $gray2;
+  }
+
   li {
     display: inline-block;
     padding: 18px 10px;
@@ -35,11 +39,6 @@
   .navbar__link {
     @include a;
   }
-
-  .navbar__link-first-li {
-    color: transparent;
-  }
-
   .navbar__link-icon {
     i {
       margin-right: 5px;

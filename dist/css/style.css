@@ -512,6 +512,10 @@ template {
   padding: 0;
 }
 
+.navbar__nav li:first-child {
+  border-left: solid 1px #8395a7;
+}
+
 .navbar__nav li {
   display: inline-block;
   padding: 18px 10px;
@@ -533,10 +537,6 @@ template {
   background-color: inherit;
   padding: 0;
   text-align: center;
-}
-
-.navbar__nav .navbar__link-first-li {
-  color: transparent;
 }
 
 .navbar__nav .navbar__link-icon i {
