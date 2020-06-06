@@ -379,19 +379,27 @@ template {
 }
 
 .sidebar__header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
   margin-right: 8px;
-  margin-bottom: 20px;
-  margin-left: 15px;
+  margin-bottom: 0;
+  margin-left: 8px;
 }
 
 .sidebar__logo {
+  padding: 0;
+  text-align: left;
   color: #ffffff;
   font-size: 35px;
   font-family: "Dancing Script", cursive;
-  margin-right: 25px;
+  margin-right: 0;
 }
 
 .sidebar__toggler {
+  padding: 0;
+  text-align: right;
   border: 0;
   background-color: inherit;
 }

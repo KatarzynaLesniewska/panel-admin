@@ -19,19 +19,28 @@
 }
 
 .sidebar__header {
+  display: flex;
+  //flex-basis: auto;
+  //flex: 1 1 auto;
+  //flex: 0 0 33%;
+  justify-content: space-between;
   margin-right: 8px;
-  margin-bottom: 20px;
-  margin-left: 15px;
+  margin-bottom: 0;
+  margin-left: 8px;
 }
 
 .sidebar__logo {
+  padding: 0;
+  text-align: left;
   color: $white;
   font-size: $logo-size;
   font-family: $logo-font;
-  margin-right: 25px;
+  margin-right: 0;
 }
 
 .sidebar__toggler {
+  padding: 0;
+  text-align: right;
   border: 0;
   background-color: inherit;
 
