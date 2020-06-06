@@ -632,6 +632,8 @@ template {
 .general-stats .general-stats__calender {
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-pack: center;
@@ -640,11 +642,13 @@ template {
 }
 
 .general-stats .general-stats__calender .calender {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
   margin-top: 50px;
   margin-bottom: 50px;
   border: solid 1px #8395a7;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .general-stats .general-stats__calender .calender div:first-of-type {

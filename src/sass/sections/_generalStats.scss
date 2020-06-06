@@ -16,15 +16,17 @@
 
   .general-stats__calender {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     border-bottom: solid 1px $gray2;
 
     .calender {
+      display: flex;
+      flex-direction: row;
       margin-top: 50px;
       margin-bottom: 50px;
       border: solid 1px $gray2;
-      display: flex;
 
       div:first-of-type {
         border-right: solid 1px $gray2;
