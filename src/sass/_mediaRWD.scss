@@ -9,14 +9,22 @@
 
   .sidebar {
     width: 100%;
+    //width: fit-content;
+    height: fit-content;
+    //height: min-content;
+    //height: max-content;
+    ///z-index: -1;
 
     .sidebarLi-navbarSM{
+      width: 100%;
       display: block;
       flex-direction: column;
       align-items: center;
       justify-content: center;
 
       ul {
+        width: 100%;
+
         li {
           display: block;
           flex-direction: column;
@@ -24,6 +32,12 @@
           justify-content: center;
         }
       }
+    }
+
+    .general-stats {
+      margin-left: 5px;
+      margin-top: 800px;
+      ///z-index: 1;
     }
 
     .general-stats__4-numbers {
@@ -46,16 +60,33 @@
 
     .general-stats__chart-img {
       text-align: center;
-      margin: auto, 0;
+      margin-left: 5px;
 
+      .chart-img__scroll-wrapper {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+
+        img {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+
+      /*
       img {
         width: 250px;
         height: 100px;
       }
+      */
     }
   }
 
   .links {
+    margin-left: 5px;
+    margin-top: 1600px;
+    ///z-index: 1;
+
     .li {
       display: block;
       flex-direction: column;
@@ -74,34 +105,47 @@
 
   .sidebar {
     width: 30%;
+  }
 
-    .general-stats__4-numbers {
+  .general-stats__4-numbers {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .general-stats__name {
+    margin-right: 100px;
+  }
+
+  .general-stats__chart {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .general-stats__chart-img {
+    text-align: center;
+    margin-left: 5px;
+
+    .chart-img__scroll-wrapper {
       display: block;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .general-stats__name {
-      margin-right: 100px;
-    }
-
-    .general-stats__chart {
-      display: block;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .general-stats__chart-img {
-      text-align: center;
-      margin: auto, 0;
+      width: 100%;
+      overflow-x: auto;
 
       img {
-        width: 250px;
-        height: 100px;
+        width: 100%;
+        max-width: 100%;
       }
     }
+
+    /*
+    img {
+      width: 250px;
+      height: 100px;
+    }
+    */
   }
 
   .links {
@@ -123,5 +167,9 @@
 
   .navbar {
     width: 100%;
+  }
+
+  .chart-img__scroll-wrapper {
+    display: none;
   }
 }

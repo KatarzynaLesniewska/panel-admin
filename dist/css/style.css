@@ -363,8 +363,12 @@ template {
   }
   .sidebar {
     width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .sidebar .sidebarLi-navbarSM {
+    width: 100%;
     display: block;
     -ms-flex-direction: column;
         flex-direction: column;
@@ -372,6 +376,9 @@ template {
         align-items: center;
     -ms-flex-pack: center;
         justify-content: center;
+  }
+  .sidebar .sidebarLi-navbarSM ul {
+    width: 100%;
   }
   .sidebar .sidebarLi-navbarSM ul li {
     display: block;
@@ -381,6 +388,10 @@ template {
         align-items: center;
     -ms-flex-pack: center;
         justify-content: center;
+  }
+  .sidebar .general-stats {
+    margin-left: 5px;
+    margin-top: 800px;
   }
   .sidebar .general-stats__4-numbers {
     display: block;
@@ -405,11 +416,26 @@ template {
   }
   .sidebar .general-stats__chart-img {
     text-align: center;
-    margin: auto, 0;
+    margin-left: 5px;
+    /*
+      img {
+        width: 250px;
+        height: 100px;
+      }
+      */
   }
-  .sidebar .general-stats__chart-img img {
-    width: 250px;
-    height: 100px;
+  .sidebar .general-stats__chart-img .chart-img__scroll-wrapper {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .sidebar .general-stats__chart-img .chart-img__scroll-wrapper img {
+    width: 100%;
+    max-width: 100%;
+  }
+  .links {
+    margin-left: 5px;
+    margin-top: 1600px;
   }
   .links .li {
     display: block;
@@ -430,7 +456,7 @@ template {
   .sidebar {
     width: 30%;
   }
-  .sidebar .general-stats__4-numbers {
+  .general-stats__4-numbers {
     display: block;
     -ms-flex-direction: column;
         flex-direction: column;
@@ -439,10 +465,10 @@ template {
     -ms-flex-pack: center;
         justify-content: center;
   }
-  .sidebar .general-stats__name {
+  .general-stats__name {
     margin-right: 100px;
   }
-  .sidebar .general-stats__chart {
+  .general-stats__chart {
     display: block;
     -ms-flex-direction: column;
         flex-direction: column;
@@ -451,13 +477,24 @@ template {
     -ms-flex-pack: center;
         justify-content: center;
   }
-  .sidebar .general-stats__chart-img {
+  .general-stats__chart-img {
     text-align: center;
-    margin: auto, 0;
+    margin-left: 5px;
+    /*
+    img {
+      width: 250px;
+      height: 100px;
+    }
+    */
   }
-  .sidebar .general-stats__chart-img img {
-    width: 250px;
-    height: 100px;
+  .general-stats__chart-img .chart-img__scroll-wrapper {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .general-stats__chart-img .chart-img__scroll-wrapper img {
+    width: 100%;
+    max-width: 100%;
   }
   .links .li {
     display: block;
@@ -477,6 +514,9 @@ template {
   }
   .navbar {
     width: 100%;
+  }
+  .chart-img__scroll-wrapper {
+    display: none;
   }
 }
 
