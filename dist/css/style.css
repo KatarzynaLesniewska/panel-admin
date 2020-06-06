@@ -622,6 +622,50 @@ template {
   color: #2e86de;
 }
 
+/* Media */
+@media (max-width: 767px) {
+  .sidebar {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .sidebar .sidebarLi-navbarSM {
+    width: 100%;
+    display: block;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  .sidebar .sidebarLi-navbarSM ul {
+    width: 100%;
+  }
+  .sidebar .sidebarLi-navbarSM ul li {
+    display: block;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .sidebar {
+    width: 30%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1440px) {
+  .sidebar {
+    width: 25%;
+  }
+}
+
 /* Navbar (top) */
 .navbar {
   background-color: #ffffff;
