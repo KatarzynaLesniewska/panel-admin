@@ -103,8 +103,7 @@
 
 /* Media */
 
-/* small */
-
+// small
 @media (max-width: 767px) {
   .general-stats {
     margin-left: 5px;
@@ -136,8 +135,7 @@
   }
 }
 
-/* medium */
-
+// medium
 @media (min-width: 768px) and (max-width: 991px) {
   .general-stats__4-numbers {
     display: block;
@@ -167,9 +165,7 @@
 img:first-child {
   display: none;
 }
-*/
 
-/*
 .chart-img__scroll-wrapper {
   display: block;
   width: 100%;
@@ -180,18 +176,15 @@ img:first-child {
     max-width: 100%;
   }
 }
-*/
 
-/*
 img {
   width: 250px;
   height: 100px;
 }
 */
 
-/* large */
-
 /*
+// large
 @media (min-width: 992px) and (max-width: 1440px) {
   /*
   .chart-img__scroll-wrapper {

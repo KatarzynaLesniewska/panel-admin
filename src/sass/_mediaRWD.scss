@@ -1,7 +1,6 @@
 /* Media */
 
-/* small */
-
+// small
 @media (max-width: 767px) {
   .navbar {
     display: none;
@@ -100,8 +99,7 @@
   }
 }
 
-/* medium */
-
+// medium
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar {
     width: 50%;
@@ -166,8 +164,7 @@
   }
 }
 
-/* large */
-
+// large
 @media (min-width: 992px) and (max-width: 1440px) {
   .sidebar {
     width: 25%;

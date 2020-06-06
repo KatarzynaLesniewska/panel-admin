@@ -79,3 +79,39 @@
     }
   }
 }
+
+/* Media */
+
+// small
+@media (max-width: 767px) {
+  .links {
+    margin-left: 5px;
+    margin-top: 1600px;
+    ///z-index: 1;
+
+    .li {
+      display: block;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+// medium
+@media (min-width: 768px) and (max-width: 991px) {
+  .links {
+    .li {
+      display: block;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+/*
+// large
+@media (min-width: 992px) and (max-width: 1440px) {
+}
+*/
