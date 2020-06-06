@@ -424,6 +424,9 @@ template {
       }
       */
   }
+  .sidebar .general-stats__chart-img img:first-child {
+    display: none;
+  }
   .sidebar .general-stats__chart-img .chart-img__scroll-wrapper {
     display: block;
     width: 100%;
@@ -486,6 +489,9 @@ template {
       height: 100px;
     }
     */
+  }
+  .general-stats__chart-img img:first-child {
+    display: none;
   }
   .general-stats__chart-img .chart-img__scroll-wrapper {
     display: block;
