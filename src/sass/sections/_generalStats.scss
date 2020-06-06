@@ -71,19 +71,24 @@
 
   .general-stats__colmn {
     flex-direction: column;
+    padding: 0;
   }
 
   .general-stats__row {
+    padding: 0;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     border-bottom: solid 1px $gray2;
-    margin-bottom: 35px;
+
+    span {
+      padding: 0;
+    }
   }
 
   .general-stats__name {
     text-align: left;
-    margin-right: 175px;
+    margin: 0;
   }
 
   .general-stats__No {
