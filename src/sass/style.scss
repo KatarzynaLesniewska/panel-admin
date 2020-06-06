@@ -2,7 +2,6 @@
 @import "mixins";
 @import "normalize";
 @import "layout";
-@import "mediaRWD";
 
 /* Components */
 // @import "components/form_field";
@@ -16,3 +15,5 @@
 @import "sections/navbar";
 @import "sections/generalStats";
 @import "sections/links";
+
+@import "mediaRWD";
