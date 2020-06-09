@@ -102,13 +102,18 @@
 // small
 @media (max-width: 767px) {
   .sidebar {
-    display: none;
-    width: 100%;
+    position: relative;
+    padding: 18px 0px 0 0px;
     //width: fit-content;
     height: fit-content;
     //height: min-content;
     //height: max-content;
-    ///z-index: -1;
+    //z-index: -1;
+
+    .sidebar__header {
+      display: flex;
+      flex-direction: row;
+    }
 
     .sidebarLi-navbarSM{
       width: 100%;

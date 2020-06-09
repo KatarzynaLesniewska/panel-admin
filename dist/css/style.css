@@ -460,11 +460,17 @@ template {
 /* Media */
 @media (max-width: 767px) {
   .sidebar {
-    display: none;
-    width: 100%;
+    position: relative;
+    padding: 18px 0px 0 0px;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+  }
+  .sidebar .sidebar__header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
   }
   .sidebar .sidebarLi-navbarSM {
     width: 100%;
