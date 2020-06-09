@@ -989,10 +989,11 @@ template {
         flex-direction: column;
     -ms-flex-pack: center;
         justify-content: center;
-    margin: auto;
-    width: 80%;
+    margin: 0;
+    width: 90%;
   }
   .links .li {
+    padding: 5px 0 5px 5px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -1023,6 +1024,16 @@ template {
     -ms-flex-pack: center;
         justify-content: center;
   }
+  .links .links__content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin: auto;
+    width: 100%;
+  }
   .links .links__link-list {
     display: -ms-flexbox;
     display: flex;
@@ -1032,8 +1043,12 @@ template {
         align-items: center;
     -ms-flex-pack: center;
         justify-content: center;
+    margin: auto;
+    width: 100%;
+    text-align: center;
   }
   .links .li {
+    padding: 5px 0 5px 5px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -1042,6 +1057,9 @@ template {
         align-items: center;
     -ms-flex-pack: center;
         justify-content: center;
+    margin: auto;
+    width: 100%;
+    text-align: center;
   }
 }
 
