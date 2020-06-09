@@ -85,16 +85,33 @@
 // small
 @media (max-width: 767px) {
   .links {
-    margin-left: 5px;
-    margin-top: 1600px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     ///z-index: 1;
 
+    .links__link-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
     .li {
-      display: block;
+      display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+
+      .links__name {
+        margin-right: 10px;
+      }
     }
+  }
+
+  .links__heading {
+    display: flex;
+    justify-content: center;
   }
 }
 

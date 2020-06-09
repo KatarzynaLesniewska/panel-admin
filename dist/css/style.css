@@ -460,6 +460,7 @@ template {
 /* Media */
 @media (max-width: 767px) {
   .sidebar {
+    display: none;
     width: 100%;
     height: -webkit-fit-content;
     height: -moz-fit-content;
@@ -747,8 +748,15 @@ template {
 /* Media */
 @media (max-width: 767px) {
   .general-stats {
-    margin-left: 5px;
-    margin-top: 800px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+  }
+  .general-stats__heading {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
   .general-stats__4-numbers {
     display: block;
@@ -763,7 +771,8 @@ template {
     margin-right: 100px;
   }
   .general-stats__chart {
-    display: block;
+    display: -ms-flexbox;
+    display: flex;
     -ms-flex-direction: column;
         flex-direction: column;
     -ms-flex-align: center;
@@ -772,6 +781,14 @@ template {
         justify-content: center;
   }
   .general-stats__chart-img {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
     text-align: center;
     margin-left: 5px;
   }
@@ -907,15 +924,35 @@ template {
 /* Media */
 @media (max-width: 767px) {
   .links {
-    margin-left: 5px;
-    margin-top: 1600px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .links .links__link-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
   .links .li {
-    display: block;
+    display: -ms-flexbox;
+    display: flex;
     -ms-flex-direction: column;
         flex-direction: column;
     -ms-flex-align: center;
         align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  .links .li .links__name {
+    margin-right: 10px;
+  }
+  .links__heading {
+    display: -ms-flexbox;
+    display: flex;
     -ms-flex-pack: center;
         justify-content: center;
   }

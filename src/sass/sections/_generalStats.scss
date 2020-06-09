@@ -128,9 +128,15 @@
 // small
 @media (max-width: 767px) {
   .general-stats {
-    margin-left: 5px;
-    margin-top: 800px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
     ///z-index: 1;
+  }
+
+  .general-stats__heading {
+    display: flex;
+    justify-content: center;
   }
 
   .general-stats__4-numbers {
@@ -145,13 +151,17 @@
   }
 
   .general-stats__chart {
-    display: block;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
   .general-stats__chart-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     margin-left: 5px;
   }
