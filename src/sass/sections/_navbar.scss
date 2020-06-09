@@ -94,7 +94,13 @@
 // medium
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar {
-    width: 50%;
+    width: 100%;
+  }
+
+  .navbar__nav {
+    li:first-child {
+      border-left: 0;
+    }
   }
 }
 
