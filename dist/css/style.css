@@ -733,10 +733,23 @@ template {
 }
 
 .general-stats .general-stats__chart {
-  max-width: 50%;
-  text-align: left;
-  margin: 0, auto, 30px;
-  margin-bottom: 30px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: auto;
+  width: 50%;
+  /*
+    max-width: 50%;
+    text-align: left;
+    //text-align: center;
+    margin: 0, auto, 30px;
+    margin-bottom: 30px;
+    */
   /*
     img {
       align-items: center;
@@ -788,6 +801,8 @@ template {
         align-items: center;
     -ms-flex-pack: center;
         justify-content: center;
+    margin: auto;
+    width: 50%;
   }
   .general-stats__chart-img {
     display: -ms-flexbox;
@@ -804,8 +819,18 @@ template {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .general-stats {
+    margin-left: 270px;
+  }
+  .general-stats__heading {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
   .general-stats__4-numbers {
-    display: block;
+    display: -ms-flexbox;
+    display: flex;
     -ms-flex-direction: column;
         flex-direction: column;
     -ms-flex-align: center;
@@ -817,15 +842,24 @@ template {
     margin-right: 100px;
   }
   .general-stats__chart {
-    display: block;
+    display: -ms-flexbox;
+    display: flex;
     -ms-flex-direction: column;
         flex-direction: column;
     -ms-flex-align: center;
         align-items: center;
     -ms-flex-pack: center;
         justify-content: center;
+    margin: auto;
+    width: 50%;
   }
   .general-stats__chart-img {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
     text-align: center;
     margin-left: 5px;
   }
@@ -968,6 +1002,15 @@ template {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .links {
+    margin-left: 270px;
+  }
+  .links .links__heading {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
   .links .li {
     display: block;
     -ms-flex-direction: column;

@@ -118,6 +118,13 @@
 // medium
 @media (min-width: 768px) and (max-width: 991px) {
   .links {
+    margin-left: 270px;
+
+    .links__heading {
+      display: flex;
+      justify-content: center;
+    }
+
     .li {
       display: block;
       flex-direction: column;
