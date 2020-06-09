@@ -13,8 +13,9 @@
   .links__content {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
   }
 
   .links__link-list {
@@ -95,6 +96,8 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      margin: auto;
+      width: 80%;
     }
 
     .li {
@@ -125,8 +128,15 @@
       justify-content: center;
     }
 
+    .links__link-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
     .li {
-      display: block;
+      display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;

@@ -788,6 +788,8 @@ template {
         align-items: center;
     -ms-flex-pack: center;
         justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .general-stats__name {
     margin-right: 100px;
@@ -814,7 +816,7 @@ template {
     -ms-flex-pack: center;
         justify-content: center;
     text-align: center;
-    margin-left: 5px;
+    margin-bottom: 50px;
   }
 }
 
@@ -897,9 +899,10 @@ template {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  text-align: center;
-  -ms-flex-align: center;
-      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: auto;
+  width: 80%;
 }
 
 .links .links__link-list {
@@ -981,6 +984,8 @@ template {
         flex-direction: column;
     -ms-flex-pack: center;
         justify-content: center;
+    margin: auto;
+    width: 80%;
   }
   .links .li {
     display: -ms-flexbox;
@@ -1013,8 +1018,19 @@ template {
     -ms-flex-pack: center;
         justify-content: center;
   }
+  .links .links__link-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
   .links .li {
-    display: block;
+    display: -ms-flexbox;
+    display: flex;
     -ms-flex-direction: column;
         flex-direction: column;
     -ms-flex-align: center;
