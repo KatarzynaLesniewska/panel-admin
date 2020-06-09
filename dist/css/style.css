@@ -756,6 +756,7 @@ template {
     }
 
     .general-stats__chart-img {
+      margin-bottom: 50px;
       max-width: 50%;
       text-align: left;
       margin: 0, auto, 30px;
@@ -765,6 +766,10 @@ template {
 
 .general-stats .general-stats__chart img {
   max-width: 100%;
+}
+
+.general-stats .general-stats__chart .general-stats__chart-img {
+  margin-bottom: 50px;
 }
 
 /* Media */
@@ -890,7 +895,7 @@ template {
 .links .links__heading {
   text-align: left;
   border-bottom: solid 1px #8395a7;
-  margin: 10px 0;
+  margin: 10px 0 0 0;
   padding: 0 10px 10px 10px;
 }
 
@@ -902,7 +907,7 @@ template {
   -ms-flex-pack: center;
       justify-content: center;
   margin: auto;
-  width: 80%;
+  width: 70%;
 }
 
 .links .links__link-list {
