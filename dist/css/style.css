@@ -635,7 +635,7 @@ template {
 .general-stats .general-stats__heading {
   text-align: left;
   border-bottom: solid 1px #8395a7;
-  margin: 10px 0;
+  margin: 10px 0 0 0;
   padding: 0 10px 10px 10px;
 }
 
@@ -837,6 +837,8 @@ template {
         align-items: center;
     -ms-flex-pack: center;
         justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .general-stats__name {
     margin-right: 100px;
@@ -861,7 +863,7 @@ template {
     -ms-flex-pack: center;
         justify-content: center;
     text-align: center;
-    margin-left: 5px;
+    margin-bottom: 50px;
   }
 }
 
