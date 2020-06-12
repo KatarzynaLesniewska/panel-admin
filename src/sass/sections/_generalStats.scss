@@ -80,10 +80,7 @@
     justify-content: space-between;
     flex-direction: row;
     border-bottom: solid 1px $gray2;
-
-    span {
-      padding: 0;
-    }
+    margin-bottom: 25px;
   }
 
   .general-stats__name {
