@@ -70,7 +70,7 @@
   }
 
   .links__url {
-    //margin-right: 100px;
+    margin-right: 10px;
     text-decoration: none;
   }
 
@@ -78,7 +78,7 @@
     min-width: 30px;
 
     i {
-      margin-right: 30px;
+      margin-right: 10px;
       color: transparent;
     }
   }
@@ -114,6 +114,16 @@
       justify-content: center;
 
       .links__name {
+        margin-right: 10px;
+      }
+    }
+
+    .links__url {
+      margin-right: 10px;
+    }
+
+    .links__icons {
+      i {
         margin-right: 10px;
       }
     }
@@ -162,6 +172,16 @@
       margin: auto;
       width: 100%;
       text-align: center;
+    }
+
+    .links__url {
+      margin-right: 10px;
+    }
+
+    .links__icons {
+      i {
+        margin-right: 10px;
+      }
     }
   }
 }

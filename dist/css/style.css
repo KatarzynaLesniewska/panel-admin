@@ -962,6 +962,7 @@ template {
 }
 
 .links .links__url {
+  margin-right: 10px;
   text-decoration: none;
 }
 
@@ -970,7 +971,7 @@ template {
 }
 
 .links .links__icons i {
-  margin-right: 30px;
+  margin-right: 10px;
   color: transparent;
 }
 
@@ -1006,6 +1007,12 @@ template {
         justify-content: center;
   }
   .links .li .links__name {
+    margin-right: 10px;
+  }
+  .links .links__url {
+    margin-right: 10px;
+  }
+  .links .links__icons i {
     margin-right: 10px;
   }
   .links__heading {
@@ -1062,6 +1069,12 @@ template {
     margin: auto;
     width: 100%;
     text-align: center;
+  }
+  .links .links__url {
+    margin-right: 10px;
+  }
+  .links .links__icons i {
+    margin-right: 10px;
   }
 }
 
