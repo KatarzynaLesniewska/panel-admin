@@ -95,12 +95,15 @@
     margin-bottom: 50px;
     ///z-index: 1;
 
+    .links__content {
+      margin: auto;
+      width: 100%;
+    }
+
     .links__link-list {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin: 0;
-      width: 90%;
     }
 
     .li {

@@ -982,6 +982,10 @@ template {
     margin-top: 50px;
     margin-bottom: 50px;
   }
+  .links .links__content {
+    margin: auto;
+    width: 100%;
+  }
   .links .links__link-list {
     display: -ms-flexbox;
     display: flex;
@@ -989,8 +993,6 @@ template {
         flex-direction: column;
     -ms-flex-pack: center;
         justify-content: center;
-    margin: 0;
-    width: 90%;
   }
   .links .li {
     padding: 5px 0 5px 5px;
