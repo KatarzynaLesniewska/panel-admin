@@ -494,6 +494,7 @@ template {
     -ms-flex-pack: center;
         justify-content: center;
     border-left: 0;
+    border-right: 0;
   }
 }
 
