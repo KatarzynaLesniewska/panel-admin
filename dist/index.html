@@ -19,18 +19,269 @@
 <body>
   <!--
     <header class="header"></header>
-    -->
+  -->
 
   <nav class="sidebar col-md-3 col-lg-2">
     <div class="sidebar__header">
       <a class="sidebar__logo box">Just do it</a>
-      <button class="sidebar__toggler box">
+      <button class="sidebar__toggler box hamburger">
         <span class="sidebar__toggler-icon">
           <i class="fas fa-bars"></i>
         </span>
       </button>
     </div>
 
+    <ul class="sidebar__nav menu">
+      <li>
+        <a class="sidebar__link" href="#">
+          <span class="sidebar__link-icon">
+            <i class="far fa-star"></i>
+            General
+          </span>
+        </a>
+      </li>
+      <li>
+        <a class="sidebar__link" href="#">
+          <span class="sidebar__link-icon">
+            <i class="fas fa-server"></i>
+            Details
+          </span>
+        </a>
+      </li>
+      <li>
+        <a class="sidebar__link" href="#">
+          <span class="sidebar__link-icon">
+            <i class="fas fa-link"></i>
+            Links
+          </span>
+        </a>
+      </li>
+      <li>
+        <a class="sidebar__link" href="#">
+          <span class="sidebar__link-icon">
+            <i class="fas fa-table"></i>
+            Banners
+          </span>
+        </a>
+      </li>
+      <li>
+        <a class="sidebar__link" href="#">
+          <span class="sidebar__link-icon">
+            <i class="fas fa-user"></i>
+            Personal data
+          </span>
+        </a>
+      </li>
+      <li>
+        <a class="sidebar__link" href="#">
+          <span class="sidebar__link-icon">
+            <i class="fas fa-receipt"></i>
+            Payout
+          </span>
+        </a>
+      </li>
+      <li>
+        <a class="sidebar__link" href="#">
+          <span class="sidebar__link-icon">
+            <i class="fas fa-retweet"></i>
+            Postback
+          </span>
+        </a>
+      </li>
+    </ul>
+    <div class="sidebar_border menu"></div>
+
+    <ul class="sidebar__nav menu">
+      <li>
+        <a class="sidebar__link" href="#">
+          <span class="sidebar__messege-title">
+            YOUR MANAGER
+          </span>
+        </a>
+      </li>
+      <li>
+        <a class="sidebar__link" href="#">
+          <div class="sidebar__messege-img">
+            <img alt="img" src="https://i.ibb.co/pQ9YRRN/widok-panelu-admini-do-syst-zarz-banner-i-link.png" />
+            <span class="sidebar__messege-name">
+              Mikhael E.
+            </span>
+          </div>
+        </a>
+      </li>
+      <li class="sidebarLi-navbarSM">
+
+          <ul class="navbar__nav">
+            <li>
+              <form class="navbar__form" action="#">
+                <label for="#"></label>
+                <span class="navbar__link-icon">
+                  <i class="fas fa-credit-card"></i>
+                </span>
+                <select id="#" name="#">
+                  <option value="$1,500.00" selected>$1,500.00</option>
+                  <option value="$1,500.00">$1,500.00</option>
+                  <option value="$1,500.00">$1,500.00</option>
+                </select>
+              </form>
+            </li>
+            <li>
+              <a class="navbar__link">
+                <span class="navbar__link-icon">
+                  <i class="far fa-bell"></i>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a class="navbar__link">
+                <span class="navbar__link-icon">
+                  <i class="far fa-user-circle"></i>
+                  <span class="navbar__link-icon-name">
+                    Leonardo Dicaprio
+                  </span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a class="navbar__link">
+                <span class="navbar__link-icon">
+                  <i class="fas fa-sign-out-alt"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+
+      </li>
+    </ul>
+
+    <!--
+    <div class="menu">
+      <ul class="sidebar__nav">
+        <li>
+          <a class="sidebar__link" href="#">
+            <span class="sidebar__link-icon">
+              <i class="far fa-star"></i>
+              General
+            </span>
+          </a>
+        </li>
+        <li>
+          <a class="sidebar__link" href="#">
+            <span class="sidebar__link-icon">
+              <i class="fas fa-server"></i>
+              Details
+            </span>
+          </a>
+        </li>
+        <li>
+          <a class="sidebar__link" href="#">
+            <span class="sidebar__link-icon">
+              <i class="fas fa-link"></i>
+              Links
+            </span>
+          </a>
+        </li>
+        <li>
+          <a class="sidebar__link" href="#">
+            <span class="sidebar__link-icon">
+              <i class="fas fa-table"></i>
+              Banners
+            </span>
+          </a>
+        </li>
+        <li>
+          <a class="sidebar__link" href="#">
+            <span class="sidebar__link-icon">
+              <i class="fas fa-user"></i>
+              Personal data
+            </span>
+          </a>
+        </li>
+        <li>
+          <a class="sidebar__link" href="#">
+            <span class="sidebar__link-icon">
+              <i class="fas fa-receipt"></i>
+              Payout
+            </span>
+          </a>
+        </li>
+        <li>
+          <a class="sidebar__link" href="#">
+            <span class="sidebar__link-icon">
+              <i class="fas fa-retweet"></i>
+              Postback
+            </span>
+          </a>
+        </li>
+      </ul>
+      <div class="sidebar_border"></div>
+
+      <ul class="sidebar__nav">
+        <li>
+          <a class="sidebar__link" href="#">
+            <span class="sidebar__messege-title">
+              YOUR MANAGER
+            </span>
+          </a>
+        </li>
+        <li>
+          <a class="sidebar__link" href="#">
+            <div class="sidebar__messege-img">
+              <img alt="img" src="https://i.ibb.co/pQ9YRRN/widok-panelu-admini-do-syst-zarz-banner-i-link.png" />
+              <span class="sidebar__messege-name">
+                Mikhael E.
+              </span>
+            </div>
+          </a>
+        </li>
+        <li class="sidebarLi-navbarSM">
+
+            <ul class="navbar__nav">
+              <li>
+                <form class="navbar__form" action="#">
+                  <label for="#"></label>
+                  <span class="navbar__link-icon">
+                    <i class="fas fa-credit-card"></i>
+                  </span>
+                  <select id="#" name="#">
+                    <option value="$1,500.00" selected>$1,500.00</option>
+                    <option value="$1,500.00">$1,500.00</option>
+                    <option value="$1,500.00">$1,500.00</option>
+                  </select>
+                </form>
+              </li>
+              <li>
+                <a class="navbar__link">
+                  <span class="navbar__link-icon">
+                    <i class="far fa-bell"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="navbar__link">
+                  <span class="navbar__link-icon">
+                    <i class="far fa-user-circle"></i>
+                    <span class="navbar__link-icon-name">
+                      Leonardo Dicaprio
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="navbar__link">
+                  <span class="navbar__link-icon">
+                    <i class="fas fa-sign-out-alt"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+
+        </li>
+      </ul>
+    </div>
+    -->
+
+    <!--
     <ul class="sidebar__nav">
       <li>
         <a class="sidebar__link" href="#">
@@ -153,6 +404,7 @@
 
       </li>
     </ul>
+    -->
   </nav>
 
   <nav class="navbar">

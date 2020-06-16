@@ -1,3 +1,14 @@
+{
+  function toggleMenu(visible) {
+    document.querySelectorAll('.menu').classList.toggle('show', visible);
+  }
+
+  document.querySelector('.hamburger').addEventListener('click', function(e) {
+    e.preventDefault();
+    toggleMenu();
+  });
+}
+
 /*
 {
   // https://kodilla.com/pl/bootcamp-module/298/262/5212#132-mobilne-menu-sterowanie-menu
@@ -55,8 +66,7 @@
     document.querySelector(modal).classList.add('show');
   }
 
-  /*
-  Powyższy kod możemy wywołać, kiedy tylko będziemy potrzebować pokazać konkretny modal, np. openModal('#myModal').
+  //Powyższy kod możemy wywołać, kiedy tylko będziemy potrzebować pokazać konkretny modal, np. openModal('#myModal').
 
   const button = document.querySelector('#exitIcon');
   button.addEventListener('click', function() {
